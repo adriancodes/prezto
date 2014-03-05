@@ -12,3 +12,28 @@ fi
 
 # Customize to your needs...
 
+#Directory Listings
+alias ls='ls --color' #I like color
+
+alias ll='ls -lFh'     #size,show type,human readable
+alias la='ls -lAFh'   #long list,show almost all,show type,human readable
+alias lr='ls -tRFh'   #sorted by date,recursive,show type,human readable
+alias lt='ls -ltFh'   #long list,sorted by date,show type,human readable
+
+#Directories
+alias dev="cd ~/dev"
+alias tor="cd ~/torrents"
+alias etc="cd /etc"
+alias tmp="cd /tmp"
+alias log="sudo cd /var/log"
+
+#Apps
+alias em="emacs -nw"
+alias vi="vim"
+alias ssub="sudo subl &"
+alias svi="sudo vim"
+alias sem="sudo emacs -nw"
+
+
+
+

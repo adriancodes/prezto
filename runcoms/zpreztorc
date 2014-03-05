@@ -27,12 +27,22 @@ zstyle ':prezto:load' pmodule \
   'environment' \
   'terminal' \
   'editor' \
+  'emacs' \
   'history' \
+  'history-substring-search' \
+  'git' \
+  'homebrew' \
+  'node' \
   'directory' \
+  'fasd' \
+  'ssh' \
+  'tmux' \
+  'syntax-highlighting' \
+  'python' \
   'spectrum' \
   'utility' \
   'completion' \
-  'prompt'
+  'prompt' 
 
 #
 # Editor
@@ -63,10 +73,10 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 #
 
 # Set the query found color.
-# zstyle ':prezto:module:history-substring-search:color' found ''
+zstyle ':prezto:module:history-substring-search:color' found ''
 
 # Set the query not found color.
-# zstyle ':prezto:module:history-substring-search:color' not-found ''
+zstyle ':prezto:module:history-substring-search:color' not-found ''
 
 # Set the search globbing flags.
 # zstyle ':prezto:module:history-substring-search' globbing-flags ''
@@ -144,10 +154,10 @@ zstyle ':prezto:module:prompt' theme 'sorin'
 # zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
 
 #
-# Tmux
+# TMUX
 #
 
-# Auto start a session when Zsh is launched in a local terminal.
+# AUTO start a session when Zsh is launched in a local terminal.
 # zstyle ':prezto:module:tmux:auto-start' local 'yes'
 
 # Auto start a session when Zsh is launched in a SSH connection.
